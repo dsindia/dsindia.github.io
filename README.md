@@ -3,7 +3,7 @@
 ## Introduction
 We seek to further promote the interdisciplinary field of data science in India through outreach at secondary schools and universities. We hope to develop an awareness about data and its growing relevance, as well as an interest in pursuing and applying data science in the academic and professional worlds
 
-###Credits:
+## Website Credits:
 
 Template: 
 Stellar by HTML5 UP html5up.net
