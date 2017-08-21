@@ -1,3 +1,3 @@
 function scroll() {
-	alert("Pajeet")
+	alert("test")
 }
