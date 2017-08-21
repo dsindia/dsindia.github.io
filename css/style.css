@@ -1,0 +1,23 @@
+.logo {
+	display: block;
+    margin: auto;
+    width: 40%;
+
+}
+
+.photo-margin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.india-map-div {
+  display: flex;
+  justify-content: center;
+}
+
+.india-map {
+  height: 300px;
+  width: 300px;
+}
