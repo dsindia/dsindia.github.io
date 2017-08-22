@@ -10,12 +10,223 @@
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='js/curriculum.js'></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<div class='container'>
 			<h1> DSI Curriculum </h1>
-      <h2> Accordion with worksheet and notebook links </h2>
-		</div>
+      <p> Our aim is to create a single introductory data science course for students from all grade levels in high school. We want to teach students the very foundations of data science: the logic and the execution. The logic involves teaching fundamental mathematical and statistical concepts, and the execution involves teaching them basic programming to apply these concepts. By the end of the course, most students should be able to understand and appreciate what data science is and how analysis works.</p>
+      <p>While it would be ideal for all students to have computer access during the course, we can’t guarantee this. As such, each lesson will consist of a worksheet that students can complete on paper, as well as a Jupyter notebook that will allow them to apply the concepts they learned in Python, often on real-world data. This means that the notebook content must be auxiliary to the worksheet content; all of the core content needs to be expressed in the worksheets.</p>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+              Lesson 0: Setup</a>
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse">
+            <div class="panel-body">
+            <p>Software used with our curriculum</p> 
+            <a href="https://docs.google.com/document/d/1zDsFS8HgzRFXYGNneN7SPn_1SdT2qM6WibCUOG64uUc/edit?usp=sharing">Installation Guide</a> 
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+              Lesson 1: Why Data Science</a>
+            </h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>Definitions of data and data science, why we should care about the subject, and applications of the field</p>
+              <a href='https://docs.google.com/document/d/1VpiLpaE7zDIkb9hSVktUMLak5v2VYy6AxitOq-LT_c0/edit?usp=sharing'>Worksheet</a>
+              <p>Examples of data analysis and visualization using Python on real-world datasets</p>
+              <a href='https://github.com/dsindia/notebooks/blob/master/lesson1/lesson1.ipynb'>Notebook</a>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+              Lesson 2: Introduction to Statistics and Python (Part 1)</a>
+            </h4>
+          </div>
+          <div id="collapse3" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>Basic statistical quantities, such as mean, median, and standard deviation. Distinction between sample and population</p>
+              <a href='https://docs.google.com/document/d/1RoNcn2X9uTRZAD4-6J0u38vwrrZWuvfGRPy5o1t7NIk/edit'>Worksheet</a>
+              <p>Variables, data types, and conditional statements in Python</p>
+              <a href='https://github.com/dsindia/notebooks/blob/master/lesson2/lesson2.ipynb'>Notebook</a>
+            </div>
+          </div>
+        </div>
+                <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+              Lesson 3: Introduction to Statistics and Python (Part 2)</a>
+            </h4>
+          </div>
+          <div id="collapse4" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>Concepts of standard units and percentiles</p>
+              <a href='https://docs.google.com/document/d/1mfSTf5jpSiNJFmRQo4_v1hIDl_dWc6MOEzb1v0WPGe4/edit'>Worksheet</a>
+              <p>Loops, functions, and arrays (using the Numpy library)</p>
+              <a href='https://github.com/dsindia/notebooks/blob/master/lesson3/lesson3.ipynb'>Notebook</a>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+              Lesson 4: Collecting Data and Tables</a>
+            </h4>
+          </div>
+          <div id="collapse5" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>Distinction between observational studies and controlled experiments. Collecting data and analyzing survey responses</p>
+              <a href = 'https://docs.google.com/document/d/1FYSEsl99tgKJxH3-QIXQ1fbmZabmpz383-zteWXv--w/edit'>Worksheet</a>
+              <p>Creating and manipulating tables using Python's datascience library (developed at UC Berkeley)</p>
+              <a href='https://github.com/dsindia/notebooks/blob/master/lesson4/lesson4.ipynb'>Notebook</a>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+              Lesson 5: Introduction to Probability and Python Application Problems</a>
+            </h4>
+          </div>
+          <div id="collapse6" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>Calculating the probability of simple and compound events, concept of conditional probability</p>
+              <a href='https://drive.google.com/open?id=1FYSEsl99tgKJxH3-QIXQ1fbmZabmpz383-zteWXv--w'>Worksheet</a>
+              <p>Using Python with Numpy and Datascience libraries to solve statistics problems with real-world data</p>
+              <a href = 'https://github.com/dsindia/notebooks/blob/master/lesson5/lesson_5.ipynb'>Notebook</a>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+              Lesson 6: Probability– Digging Deeper</a>
+            </h4>
+          </div>
+          <div id="collapse7" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>Concept of distributions (emphasis on normal distribution), relation between empirical and probability distributions</p>
+              <a href='https://docs.google.com/document/d/1kt0SW04F-FCtza8dqG7NmZsoQVuX63jEFbtx5RHYL0I/edit'>Worksheet</a>
+              <p>Creating normal distributions and comparing the empirical and probability distributions for a simulated experiment</p>
+              <a href='https://github.com/dsindia/notebooks/blob/master/lesson6/lesson6.ipynb'>Notebook</a>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+              Lesson 7: Data Visualization</a>
+            </h4>
+          </div>
+          <div id="collapse8" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>Importance of visualizing data, different types of graphs, misrepresentation of data</p>
+              <a href='https://docs.google.com/document/d/1vrkXsDNYPxB2-vHyidcC_9Ihb77c6fveYZiVE9tY-Rw/edit'>Worksheet</a>
+              <p>Using Matplotlib library to generate graphs of real-world data in Python</p>
+              <a href='https://github.com/dsindia/notebooks/blob/master/lesson7/Lesson_7_Visualization.ipynb'>Notebook</a>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">
+              Lesson 8: Finding Trends with Correlation</a>
+            </h4>
+          </div>
+          <div id="collapse9" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>Calculating correlation coefficient for two sets of data points, types of correlation, preview of regression</p>
+              <a href='https://docs.google.com/document/d/1PydjQSW3OHsu2FxnwdBZVpjjfyuEhn_VheTJkgW9OBg/edit'>Worksheet</a>
+              <p>Finding correlation coefficients to describe scatterplots</p>
+              <a href='https://github.com/dsindia/notebooks/blob/master/lesson8/Lesson8_Correlation.ipynb'>Notebook</a>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">
+              Lesson 9: Linear Regression</a>
+            </h4>
+          </div>
+          <div id="collapse10" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>When to use linear regression, how it works, calculating equation of a regression line to make predictions</p>
+              <a href='https://docs.google.com/document/d/1ukQactHtl8qygE9rAhAjL9r9wtB3dhf6VNYY0tdd1Is/edit'>Worksheet</a>
+              <p>Using Python to find regression lines to fit datasets, visualizing why regression works</p> 
+              <a href='https://github.com/dsindia/notebooks/blob/master/lesson9/Notebook%209.ipynb'>Notebook</a>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">
+              Lesson 10: Case Study</a>
+            </h4>
+          </div>
+          <div id="collapse11" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>Series of technical questions assessing knowledge of course concepts using data selected from survey of engineering graduates across India</p>
+              <a href='https://docs.google.com/document/d/1E8hg48xQYRETuCxxDWhJQ_fWslUg2EQa4wr8GGrxQ6E/edit'>Worksheet</a>
+              <p>Similar questions as worksheet, but with an emphasis on using Python to write functions and manipulate tables to gain insights about the entire dataset</p>
+              <a href='https://github.com/dsindia/notebooks/blob/master/case_study/case_study.ipynb'>Notebook</a>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse12">
+              Lesson 11: Project</a>
+            </h4>
+          </div>
+          <div id="collapse12" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>Draw conclusions about crimes against women and literacy in Indian states with course concepts</p>
+              <a href='https://docs.google.com/document/d/17KLR35RJGkrqpC9F7oM9Zv-LltOPTLbrRLtXtl13sUE/edit'>Worksheet</a>
+              <p>Achieve the same goal as the worksheet, but using Python tools to answer more open-ended questions</p>
+              <a href='https://github.com/dsindia/notebooks/blob/master/Project/finalproject.ipynb'>Notebook</a>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse13">
+              Lesson 12: Data Ethics</a>
+            </h4>
+          </div>
+          <div id="collapse13" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>Discussion of real-world examples of the prevalence of data, as well as the inherent moral and ethical implications of using (and misusing) these data</p>
+              <a href='https://docs.google.com/document/d/1wJQEHmt8tfKKpecivXQDXcKw71FPAXI5i_YLy_1fajk/edit?usp=sharing'>Worksheet</a>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+	</div>
 	</body>
 </html>
