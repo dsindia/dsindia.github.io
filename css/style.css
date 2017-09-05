@@ -146,6 +146,10 @@ height: 275px;
   padding-bottom: 92px;
 
 }
+.next-pic {
+  width: 100%;
+  height: 50%;
+}
 .photo-margin {
   display: flex;
   justify-content: center;
