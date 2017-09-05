@@ -105,8 +105,47 @@ nav a:link, nav a:visited, nav a:hover, nav a:active{
   z-index: 999;
   display: none;
 }
+.pics-wrapper {
+  position: inherit;
+  margin-left: 55%;
+}
+.student-pic {
+background-image: url(../images/students.jpg);
+  -webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+height: 276px;
+}
+.instructor-pic {
+  background-image: url(../images/instructors.png);
+  -webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+height: 275px;
+}
+.uni-pic {
+  background-image: url(../images/colleges.png);
+  -webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+height: 275px;
+}
 
+.about-overlay {
+  text-align: center;
+  font-size: 36px;
+  color: #ffffff;
+  padding-top: 145px;
+  background-color: rgba(44,60,158, 0.33);
+  padding-bottom: 92px;
 
+}
 .photo-margin {
   display: flex;
   justify-content: center;
