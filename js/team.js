@@ -1,204 +1,253 @@
-core_info = [
+var core_info = [
 	{
-		name_pos: "Pancham Yadav, Founder",
-		profile: "UC Berkeley 2020, Computer Science, Cognitive Science",
-		img: "images/Pancham_Yadav.jpg",
+		name: "Pancham Yadav",
+		pos: 'Founder',
+		school: "UC Berkeley",
+		img: "images/Pancham_Yadav.png",
 	},
 	{
-		name_pos: "Sathvik Nair, Founder",
-		profile: "UC Berkeley 2020, Computer Science, Statistics", 
-		img: "images/Sathvik_Nair.jpg"
+		name: "Sathvik Nair",
+		pos: "Founder",
+		school: "UC Berkeley", 
+		img: "images/Sathvik_Nair.png"
 	},
 	{
-		name_pos: "Janaki Vivrekar, Director of Curriculum Development",
-		profile: "UC Berkeley 2020, Computer Science, Math",
-		img: 'images/Janaki_Vivrekar.jpg',
+		name: "Janaki Vivrekar",
+		pos: "Director of Curriculum",
+		school: "UC Berkeley",
+		img: 'images/Janaki_Vivrekar.png',
 	},
 	{
-		name_pos: "Suraj Rampure, Director of Curriculum Development",
-		profile: "UC Berkeley 2020, Electrical Engineering and Computer Science, Engineering Math and Statistics",
-		img: "images/Suraj_Rampure.jpg",
+		name: "Suraj Rampure",
+		pos: "Director of Curriculum",
+		school: "UC Berkeley",
+		img: "images/Suraj_Rampure.png",
 	},
 	{
-		name_pos: 'Rohit Shylakumar, Curriculum Developer and Bangalore Organizing Lead',
-		profile: 'City University of Hong Kong 2021, Computer Science, Creative Media',
+		name: 'Rohit Shylakumar',
+		pos: 'Curriculum Developer, Bangalore Lead',
+		school: 'City University of Hong Kong',
 		img: 'images/Rohit_Shylakumar.jpg',
 	},
 	{
-		name_pos: "Anoushka Bose, Curriculum Developer",
-		profile: "MIT 2020, Nuclear Science and Engineering",
-		img: 'images/Anoushka_Bose.jpg',
+		name: "Anoushka Bose",
+		pos: "Curriculum Developer",
+		school: "MIT",
+		img: 'images/Anoushka_Bose.png',
 	},
 	{
-		name_pos: "Yajushi Mattegunta, Curriculum Developer",
-		profile: "UC Berkeley 2020, Electrical Engineering and Computer Science",
+		name: "Yajushi Mattegunta", 
+		pos: "Curriculum Developer",
+		school: "UC Berkeley",
 		img: "images/yaju.png",
 	},
 	{
-		name_pos: "Shreyan Jain, Curriculum Developer",
-		profile: "MIT 2020, Computer Science, Math",
-		img: 'images/Shreyan_Jain.jpg',
+		name: "Shreyan Jain",
+		pos: "Curriculum Developer",
+		school: "MIT",
+		img: 'images/Shreyan_Jain.png',
 	},
 	{
-		name_pos: "Yuvraj Khetan, Curriculum Developer",
-		profile: "London School of Economics and Political Science 2019, Economics, Statistics",
-		img: "images/Yuvraj_Khetan.jpg",
+		name: "Yuvraj Khetan",
+		pos: "Curriculum Developer",
+		school: "London School of Economics",
+		img: "images/Yuvraj_Khetan.png",
 	},
 	{
-		name_pos: "Batool Naqvi, Curriculum Developer",
-		profile: "UC Berkeley 2020, Computer Science",
-		img: "images/Batool_Naqvi.jpg",
+		name: "Batool Naqvi",
+		pos: "Curriculum Developer",
+		school: "UC Berkeley",
+		img: "images/Batool_Naqvi.png",
 	},
 	{
-		name_pos: "Ameet Rahane, Curriculum Developer",
-		profile: "UC Berkeley 2020, Computer Science, Cognitive Science",
-		img: 'images/Ameet_Rahane.jpg',
+		name: "Ameet Rahane",
+		pos: "Curriculum Developer",
+		school: "UC Berkeley",
+		img: 'images/Ameet_Rahane.png',
 	},
 	{
-		name_pos: "Kairavi Sarup, Director of Corporate Outreach",
-		profile: "Tufts University 2020, International Relations, Archaeology",
-		img: "images/Kairavi_Sarup.png",
+		name: "Kairavi Sarup",
+		pos: "Corporate Outreach Director",
+		school: "Tufts University",
+		img: "images/Kairaiv_Sarup.png",
 	},
 	{
-		name_pos: "Pranav Garg, Finance and Operations Officer",
-		profile: 'UC Berkley 2021, Business Administration',
+		name: "Pranav Garg",
+		pos: "Finance and Operations Officer",
+		school: 'UC Berkeley',
 		img: "images/Pranav_Garg.png",
 	},
 	{
-		name_pos: "Namita Verma, Corporate Outreach Officer",
-		profile: "UC Berkeley 2019, Economics, Psychology",
-		img: "images/Namita_Verma.jpg",
+		name: "Namita Verma",
+		pos: "Corporate Outreach Officer",
+		school: "UC Berkeley",
+		img: "images/Namita_Verma.png",
 	},
 	{
-		name_pos: "Shyamsunder Sriram, Finance Officer",
-		profile: "University of Chicago 2020, Applied Math",
-		img: "images/Shyamsunder_Sriram.jpg",
+		name: "Shyamsunder Sriram",
+		pos: "Finance Officer",
+		school: "University of Chicago",
+		img: "images/Shyamsunder_Sriram.png",
 	},
 	{
-		name_pos: "Priyanshi Bareja, Graphic Designer",
-		profile: "Rhode Island School of Design 2020, Industrial Design",
-		img: 'images/Priyanshi_Bareja.jpg',
+		name: "Priyanshi Bareja",
+		pos: "Graphic Designer",
+		school: "Rhode Island School of Design",
+		img: 'images/Priyanshi_Bareja.png',
 	},
 	{
-		name_pos: "Annie Tang, Graphic Designer",
-		profile: "UC Berkeley 2020, Computer Science, Cognitive Science",
+		name: "Annie Tang",
+		pos: "Graphic Designer",
+		school: "UC Berkeley",
 		img: 'images/annie.png',
 	},
 	{
-		name_pos: "Vinit Jain, Web Developer",
-		profile: "Jain University 2017, Computer Science and Engineering",
-		img: 'images/Vinit_Jain.jpg',
-	},
-	{
-		name_pos: "Konrad Cheng, Web Developer",
-		profile: "University of Southern California 2021, Computer Science, Business Administration",
-		img: 'images/Konrad_Cheng.jpg',
-	}
-]
+		name: "Vinit Jain",
+		pos: "Web Developer",
+		school: "Jain University 2017",
+		img: 'images/Vinit_Jain.png',
+	}]
 
 volunteer_info = [
 	{
-		name_pos: "Hariharan Srinivasulu, Chennai Organizing Lead",
-		profile: "Swarthmore College",
-		img: 'images/hari.png',	
+		name: "Hariharan Srinivasulu",
+		pos: "Chennai Lead",
+		school: "Swarthmore College",
+		img: 'images/Harihan_S.png',	
 	},
 	{
-		name_pos: "Keshav Prasanna, Chennai Volunteer Instructor",
-		profile: "UCLA",
-		img: "images/Kesav_Prasanna.png",
+		name: "Kesav Prasanna",
+		pos: "Chennai Instructor",
+		school: "UCLA",
+		img: "images/Keshav_Prasanna.png",
 	},
 	{
-		name_pos: "Tarun Narayanan, Chennai Volunteer Instructor",
-		profile: "High School",
-		img: 'images/Tarun_N.jpg',
+		name: "Tarun Narayanan",
+		pos: "Chennai Instructor",
+		school: "High School",
+		img: 'images/Tarun_N.png',
 	},
 	{
-		name_pos: "Guru Nicketan, Chennai Volunteer Instructor",
-		profile: "",
-		img: 'images/Guru_Nicketan.jpg',
+		name: "Guru Nicketan",
+		pos: "Chennai Instructor",
+		school: "High School",
+		img: 'images/Guru_N.png',
 	},
 	{
-		name_pos: "Sairandri Sathyanarayanan, Chennai Volunteer Instructor",
-		profile: "University of Washington",
+		name: "Sairandri Sathyanarayanan",
+		pos: "Chennai Instructor",
+		school: "University of Washington",
 		img: 'images/Sairandri_S.png',
 	},
 	{
-		name_pos: "Yogesh Saravanan, Chennai Volunteer Instructor",
-		profile: "",
+		name: "Yogesh Saravanan",
+		pos: "Chennai Instructor",
+		school: "IISER Kolkata",
 		img: "images/Yogesh_S.png",
 	},
 	{
-		name_pos: "Pranav Bhasin, Gurgaon and Delhi Organizing Lead",
-		profile: "UC Berkeley",
+		name: "Pranav Bhasin",
+		pos: "Gurgaon and Delhi Lead",
+		school: "UC Berkeley",
 		img: "images/Pranav_Bhasin.png",
 	},
 	{
-		name_pos: "Sathya Sahay, Gurgaon Volunteer Instructor",
-		profile: "Ashoka University",
-		img: "images/Sathya_S.jpg",
+		name: "Sathya Sahay",
+		pos: "Gurgaon Instructor",
+		school: "Ashoka University",
+		img: "images/Sathya_S.png",
 	},
 	{
-		name_pos: "Mehul Rastogi, Gurgaon Volunteer Instructor",
-		profile: "BITS Pilani, Goa",
-		img: "images/Mehul_R.jpg",
+		name: "Mehul Rastogi",
+		pos: "Gurgaon Instructor",
+		school: "BITS Pilani, Goa",
+		img: "images/Mehul_R.png",
 	},
 	{
-		name_pos: "Damini Mehta, Gurgaon Volunteer Instructor",
-		profile: "Delhi University",
-		img: "images/Damini_M.jpg",
+		name: "Damini Mehta",
+		pos: "Gurgaon Instructor",
+		school: "Delhi University",
+		img: "images/Damini_M.png",
 	},
 	{
-		name_pos: "Abhay Singh, Gurgaon Volunteer Instructor",
-		profile: "High School",
-		img: "images/Abhay_S.jpg",
+		name: "Abhay Singh",
+		pos: "Gurgaon Instructor",
+		school: "High School",
+		img: "images/Abhay_Singh.png",
 	},
 	{
-		name_pos: "Joshua Sabherwal, Gurgaon Volunteer Instructor",
-		profile: "High School",
-		img: "images/Joshua_S.jpg",
+		name: "Joshua Sabherwal",
+		pos: "Gurgaon Instructor",
+		school: "High School",
+		img: "images/Joshua_S.png",
 	},
 	{
-		name_pos: "Ameek Singh, Delhi Volunteer Instructor",
-		profile: "High School",
+		name: "Ameek Singh",
+		pos: "Delhi Instructor",
+		school: "High School",
 		img: "images/Ameek_Singh.png",
 	},
 	{
-		name_pos: "Sidhant Bhavnani, Delhi Volunteer Instructor, Web Developer",
-		profile: "High School",
-		img: "images/Sidhant_Bavani.jpg",
+		name: "Sidhant Bhavnani",
+		pos: "Delhi Instructor, Web Developer",
+		school: "High School",
+		img: "images/Sidhant_B.png",
 	},
 	{
-		name_pos: "Navin Muralidharan, Bangalore Volunteer Instructor",
-		profile: "Hong Kong University",
+		name: "Navin Muralidharan",
+		pos: "Bangalore Instructor",
+		school: "Hong Kong University",
 		img: "images/Navin_M.png",
 	},
 	{
-		name_pos: "Soujanyo Ray Chaudhuri, Bangalore Volunteer Instructor",
-		profile: "City University of Hong Kong",
+		name: "Soujanyo Ray Chaudhuri",
+		pos: "Bangalore Instructor",
+		school: "City University of Hong Kong",
 		img: "images/Soujanyo.jpg",
 	},
 	{
-		name_pos: "Sumukh Swamy, Bangalore Volunteer Instructor",
-		profile: "PESU Bangalore",
+		name: "Sumukh Swamy",
+		pos: "Bangalore Instructor",
+		school: "PESU Bangalore",
 		img: "images/Sumukh_S.jpg",
 	}
 ]
 
 $(document).ready(function() {
-	for (var i = 0; i < core_info.length; i++){
-	    $('#core').append(
-	    	"<div class='profile'><div class='img-wrapper'>"+
-	              "<img src='"+ core_info[i].img + "'/></div>" +
-	         "<p>" + core_info[i].name_pos + "</p>" +
-	          "<p>" + core_info[i].profile + "</p></div>"
-		)
-	}
-	for (var j = 0; j < volunteer_info.length; j++) {
-		$('#instructors').append(
-		 	"<div class='profile'><div class='img-wrapper'>"+
-	              "<img src='"+ volunteer_info[j].img + "'/></div>" +
-	         "<p>" + volunteer_info[j].name_pos + "</p>" +
-	          "<p>" + volunteer_info[j].profile + "</p></div>"
-	    )
-	}
+	generatePics(core_info, 'core');
+	//generatePics(advisors_info);
+	generatePics(volunteer_info, 'vols');
 });
+function generatePics(json, id) {
+	for (var i = 0; i < json.length; i++) {
+		if (i % 4 == 0) {
+			$('#' + id + '-col-' + 0 ).append("<div class='profile'><div class='img-wrapper'>"+
+	              "<img src='"+ json[i].img + "'/></div>" +
+	         "<p>" + json[i].name + "</p>" +
+	         '<p>' + json[i].pos + "</p>" + 
+	          "<p>" + json[i].school + "</p></div>"
+	          )
+		} else if (i % 4 == 1) {
+			$('#' + id + '-col-' + 1).append("<div class='profile'><div class='img-wrapper'>"+
+	              "<img src='"+ json[i].img + "'/></div>" +
+	         "<p>" + json[i].name + "</p>" +
+	         '<p>' + json[i].pos + "</p>" + 
+	          "<p>" + json[i].school + "</p></div>"
+	          )
+		} else if (i % 4 == 2) {
+			$('#' + id + '-col-' + 2).append("<div class='profile'><div class='img-wrapper'>"+
+	              "<img src='"+ json[i].img + "'/></div>" +
+	         "<p>" + json[i].name + "</p>" +
+	         '<p>' + json[i].pos + "</p>" + 
+	          "<p>" + json[i].school + "</p></div>"
+	          )
+		} else {
+			$('#' + id + '-col-' + 3).append("<div class='profile'><div class='img-wrapper'>"+
+	              "<img src='"+ json[i].img + "'/></div>" +
+	         "<p>" + json[i].name + "</p>" +
+	         "<p>" + json[i].pos + '</p>' + 
+ 	          "<p>" + json[i].school + "</p></div>"
+	          )
+		}
+	}
+}
