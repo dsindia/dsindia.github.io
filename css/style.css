@@ -22,6 +22,10 @@ section h1{padding-top: 30px;}
 	margin-top: 30px;
 	font-size: 2.3em;
 }
+footer {
+  background-color: #2C3C9E;
+  color: #ffffff;
+}
 nav {
   text-align: center;
 	margin: 25px 0;
