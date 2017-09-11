@@ -2,12 +2,6 @@ body{
 	margin: 0 auto;
 	font-family: 'Source Sans Pro';
 }
-.logo {
-	display: block;
-    margin: auto;
-    width: 70%;
-    height: 50%;
-}
 h1{font-size: 3em;}
 p{font-size: 1.5em;}
 section h1{padding-top: 30px;}
@@ -22,16 +16,6 @@ section h1{padding-top: 30px;}
 	margin-top: 30px;
 	font-size: 2.3em;
 }
-nav {
-  text-align: center;
-	margin: 25px 0;
-}
-.navImage{
-	height: 4em;
-}
-nav ul {
-  padding-left: 0;
-}
 .mast{
 	background-image: url(../images/landingBg.png);
 	-webkit-background-size:cover;
@@ -40,6 +24,7 @@ nav ul {
 background-size:cover;
 background-position:center;
 color: #fff;
+height: 700px;
 }
 .overlay{
 	padding: 75px 0;
@@ -63,19 +48,16 @@ color: #fff;
 	color: #ffa538;
   margin-right: 10px;
 }
-
 .button:hover {
   color: #2C3C9E;
   border-color: #2C3C9E;
 	text-decoration: none;
 }
-
 .button.cta {
   background: #ffa538;
   color: #fff;
   border-color: #ffa538;
 }
-
 a.button.cta:hover {
   background: #8980f5;
   color: #fff;
@@ -83,19 +65,6 @@ a.button.cta:hover {
 }
 .buttons{
 	margin-top: 60px;
-}
-
-nav ul li {
-  list-style: none;
-  display: inline-block;
-  margin: 0 5%;
-  text-transform: uppercase;
-  font-size: 1.3em;
-	color: #fff;
-}
-nav a:link, nav a:visited, nav a:hover, nav a:active{
-	text-decoration: none;
-	color: #2C3C9E;
 }
 .mobile-toggle {
   float: right;
@@ -107,7 +76,7 @@ nav a:link, nav a:visited, nav a:hover, nav a:active{
 }
 .pics-wrapper {
   position: inherit;
-  margin-left: 55%;
+ /* margin-left: 55%;*/
 }
 .student-pic {
 background-image: url(../images/students.jpg);
@@ -120,7 +89,7 @@ height: 276px;
 }
 .instructor-pic {
   background-image: url(../images/instructors.png);
-  -webkit-background-size:cover;
+-webkit-background-size:cover;
 -moz-background-size:cover;
 -o-background-size:cover;
 background-size:cover;
@@ -136,15 +105,14 @@ background-size:cover;
 background-position:center;
 height: 275px;
 }
-
 .about-overlay {
   text-align: center;
+  height: 276px;
   font-size: 36px;
   color: #ffffff;
   padding-top: 145px;
   background-color: rgba(44,60,158, 0.33);
-  padding-bottom: 92px;
-
+  /*padding-bottom: 92px;*/
 }
 .photo-margin {
   display: flex;
@@ -153,35 +121,87 @@ height: 275px;
   margin: 20px;
   width: 60%;
   height: 40%;
-
 }
-
 .india-map-div {
   display: flex;
   justify-content: center;
 }
-
 .india-map {
   height: 300px;
   width: 300px;
 }
-
-.navbar-inverse .navbar-nav>li>a{
-  color : white;
-  font-size: 25px;
+.navbar-brand {
+  padding: 8px;
+}
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+  margin-left: 10px;
+}
+.navbar{
+  height: 80px;
+}
+.navbarEdit .navbar-brand {
+  margin-left: 20px;
+  height: 80px;
+}
+.navbarEdit .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.navbarEdit .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+.navbar-alignit .navbar-header {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  height: 80px;
+}
+.navbar-alignit .navbar-brand {
+  top: 50%;
+  display: inline-block;
+  position: relative;
+  height: auto;
+  transform: translate(0,-50%);
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover{
+  background-color: transparent;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a{
+  color : #2C3C9E;
+  font-size: 22px;
+}
+.navbar-default{
+  font-size: 20px;
+  border-color: white;
+  background-color: white;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  background-color: white;
+}
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover{
+  background-color: #FFA538;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #2C3C9E;
 }
 
-.navbar-inverse{
-  background-color: #000089;
+hr {
+    height: 2px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    background: #2C3C9E;
+    margin: 0;
+    margin-bottom: 20px;
+    border: 0;
 }
 
-.navbar-inverse .navbar-toggle{
-  border-color :#000089 ;
-  background-color: #000089;
-}
 
-.navbar-inverse 
-.navbar-toggle:focus,
-.navbar-inverse .navbar-toggle:hover{
-  background-color: #000089;
-}
+

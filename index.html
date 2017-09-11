@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-    <link href="css/style.css" type="text/css" rel="stylesheet">
 
     <!--Scripts-->
     <link href="css/style.css" type="text/css" rel="stylesheet">
@@ -20,21 +19,35 @@
   </head>
 
   <body>
+    
+ <div class="navbarEdit">
+  <nav class="navbar navbar-default">
     <div class="container">
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="curriculum.html">Curriculum</a></li>
-          <li><a href="index.html"><img src="images/navLogo.png" alt=""  class="navImage"/></a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="#contact">Contact</a></li>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
+          <span class="sr-only">Data Science for India</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href=""><img src="images/navLogo.png" alt="Data Science for India">
+        </a>
+      </div>
+      <div id="navbar3" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="curriculum.html">CURRICULUM</a></li>
+          <li><a href="team.html">TEAM</a></li>
+          <li><a href="#">CONTACT</a></li>
         </ul>
-      </nav>
-      <div class="mobile-toggle">
-        <a href="#" class="menu-button">Menu</a>
-       </div>
+      </div>
+      <!--/.nav-collapse -->
     </div>
+    <!--/.container-fluid -->
+  </nav>
+</div>
 
+<div class="container-full">
     <section class="hero mast">
       <div class="overlay">
         <div class="container">
@@ -47,23 +60,27 @@
         </div>
       </div>
     </section>
+    </div>
 
-<section class="">
+<section id="about" class="">
   <div class="container">
   <div class='row'>
-    <div class="col-md-6">
+    <div class="col-xs-6">
       <h1>About Us</h1>
+      <hr>
           <p>Founded in May 2017 by a small team of UC Berkeley undergrads, we began to design a curriculum that would teach high school students fundamental concepts of data science, taking them from introductory Python programming and statistical knowledge to basic machine learning algorithms. As we spread the word about our effort, our core team expanded to include about 20 students from institutions around the world. Our first cohort of college and high school instructors taught programs at schools in four Indian cities: Delhi, Gurgaon, Bangalore, and Chennai. Even if schools did not have computers, they still taught the theoretical content, as data literacy is our goal.</p>
           <p>Will add more text here about our mission</p>
     </div>
-    <div class="col-md=6">
+    <div class="col-xs-6">
       <div class='pics-wrapper'>
         <div class='student-pic'>
           <h3 class='about-overlay'>400 Students Taught</h3>
         </div>
+        <br>
         <div class='instructor-pic'>
           <h3 class='about-overlay'>35 Volunteer Instructors</h3>
         </div>
+        <br>
         <div class='uni-pic'>
           <h3 class='about-overlay'>15 Universities Represented</h3>
         </div>
@@ -71,9 +88,9 @@
     </div>
   </div>
 </section>
-</div>
 
-d        <h3> What's Next </h3>
+
+       <h3> What's Next </h3>
           <h4>We’d like to improve on our results from this summer in the following ways:</h4>
             <ul>
               <li>Get in touch with partners in academia and industry to refine our curriculum and give talks to DSI students about the field.</li>

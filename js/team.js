@@ -86,7 +86,7 @@ core_info = [
 	},
 	{
 		name_pos: "Vinit Jain, Web Developer",
-		profile: "Jain University 2017, Computer Science and Engineering",
+		profile: "School of Engineering and Technology 2017, Computer Science and Engineering",
 		img: 'images/Vinit_Jain.jpg',
 	},
 	{
