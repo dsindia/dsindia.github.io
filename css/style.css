@@ -16,6 +16,22 @@ section h1{padding-top: 30px;}
 	margin-top: 30px;
 	font-size: 2.3em;
 }
+footer {
+  background-color: #2C3C9E;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-top: 1px;
+}
+nav {
+  text-align: center;
+	margin: 25px 0;
+}
+.navImage{
+	height: 4em;
+}
+nav ul {
+  padding-left: 0;
+}
 .mast{
 	background-image: url(../images/landingBg.png);
 	-webkit-background-size:cover;
@@ -112,7 +128,10 @@ height: 275px;
   color: #ffffff;
   padding-top: 145px;
   background-color: rgba(44,60,158, 0.33);
-  /*padding-bottom: 92px;*/
+}
+.next-pic {
+  width: 100%;
+  height: 50%;
 }
 .photo-margin {
   display: flex;

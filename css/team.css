@@ -1,3 +1,6 @@
+.container {
+	font-family: "Source Sans Pro";
+}
 .border {
 	text-align: center;
 }
@@ -5,6 +8,17 @@
 	text-align: center;
 	border-style: round;
 }
+nav {
+  text-align: center;
+    margin: 25px 0;
+}
+.navImage{
+	height: 4em;
+}
+nav ul {
+  padding-left: 0;
+}
+
 img {
 	width: 220px;
 	height: 270px;
