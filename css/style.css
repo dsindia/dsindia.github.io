@@ -25,6 +25,8 @@ section h1{padding-top: 30px;}
 footer {
   background-color: #2C3C9E;
   color: #ffffff;
+  padding-left: 20px;
+  padding-top: 1px;
 }
 nav {
   text-align: center;
