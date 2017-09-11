@@ -8,3 +8,6 @@ hr {
     margin-bottom: 20px;
     border: 0;
 }
+.panel-title {
+	font-weight: bold;
+}

@@ -94,41 +94,6 @@ a.button.cta:hover {
   position: inherit;
  /* margin-left: 55%;*/
 }
-.student-pic {
-background-image: url(../images/students.jpg);
-  -webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-size:cover;
-background-position:center;
-height: 276px;
-}
-.instructor-pic {
-  background-image: url(../images/instructors.png);
--webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-size:cover;
-background-position:center;
-height: 275px;
-}
-.uni-pic {
-  background-image: url(../images/colleges.png);
-  -webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-size:cover;
-background-position:center;
-height: 275px;
-}
-.about-overlay {
-  text-align: center;
-  height: 276px;
-  font-size: 36px;
-  color: #ffffff;
-  padding-top: 145px;
-  background-color: rgba(44,60,158, 0.33);
-}
 .next-pic {
   width: 100%;
   height: 50%;
@@ -140,6 +105,10 @@ height: 275px;
   margin: 20px;
   width: 60%;
   height: 40%;
+}
+h3 {
+  text-align: left;
+  margin-left: 120px;
 }
 .india-map-div {
   display: flex;

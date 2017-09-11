@@ -7,10 +7,12 @@
 .profile {
 	text-align: center;
 	border-style: round;
+	font-size: 10px;
 }
 nav {
   text-align: center;
     margin: 25px 0;
+  font-size: 22px;
 }
 .navImage{
 	height: 4em;
@@ -25,7 +27,7 @@ img {
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a{
-	font-size: 14px;
+	font-size: 22px;
 }
 
 .imgNavTeam{
