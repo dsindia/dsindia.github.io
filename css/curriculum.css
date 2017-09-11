@@ -1,12 +1,15 @@
 .container {
 	margin: 0 auto;
-	font-family: 'Source Sans Pro'
+	font-family: 'Source Sans Pro';
 }
 .logo {
 	display: block;
     margin: auto;
     width: 70%;
     height: 50%;
+}
+.blurb {
+    font-size: 14px;
 }
 .linebr {
     width: 100%;
