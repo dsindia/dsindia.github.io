@@ -4,6 +4,18 @@
 .profile {
 	text-align: center;
 }
+nav {
+  text-align: center;
+	margin: 25px 0;
+	display: inline-block;
+}
+.navImage{
+	height: 4em;
+}
+nav ul {
+  padding-left: 0;
+}
+
 img {
 	width: 226px;
 	height: 226px;
