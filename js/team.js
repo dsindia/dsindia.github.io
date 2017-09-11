@@ -104,7 +104,7 @@ var core_info = [
 	{
 		name: "Vinit Jain",
 		pos: "Web Developer",
-		school: "Jain University 2017",
+		school: "Jain University School of Engineering and Technology",
 		img: 'images/Vinit_Jain.png',
 	}]
 
