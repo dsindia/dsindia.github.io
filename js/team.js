@@ -37,7 +37,7 @@ var core_info = [
 	},
 	{
 		name: "Yajushi Mattegunta", 
-		pos: "Curriculum De",
+		pos: "Curriculum Developer",
 		school: "UC Berkeley",
 		img: "images/yaju.png",
 	},
