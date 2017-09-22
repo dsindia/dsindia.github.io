@@ -14,16 +14,28 @@ nav {
     margin: 25px 0;
   font-size: 22px;
 }
-.navImage{
-	height: 4em;
-}
+
 nav ul {
   padding-left: 0;
 }
 
 img {
-	width: 220px;
-	height: 270px;
+	width: 100%;
+	height: inherit;
+  padding: 20px;
+}
+p{
+	margin: 0;
+}
+.pName{
+	font-size: 2em;
+	font-weight: bolder;
+}
+.pPos{
+	font-weight: bold;
+}
+.pSchool{
+	padding-top: 5px;
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a{
@@ -32,6 +44,9 @@ img {
 
 .imgNavTeam{
 	height: 100%;
-    width: auto;
-    margin-left: 10px;
+  width: auto;
+  margin-left: 10px;
+}
+.navImage{
+	height: 4em;
 }

@@ -8,7 +8,7 @@ var core_info = [
 	{
 		name: "Sathvik Nair",
 		pos: "Founder",
-		school: "UC Berkeley", 
+		school: "UC Berkeley",
 		img: "images/Sathvik_Nair.png"
 	},
 	{
@@ -36,7 +36,7 @@ var core_info = [
 		img: 'images/Anoushka_Bose.png',
 	},
 	{
-		name: "Yajushi Mattegunta", 
+		name: "Yajushi Mattegunta",
 		pos: "Curriculum Developer",
 		school: "UC Berkeley",
 		img: "images/yaju.png",
@@ -113,7 +113,7 @@ volunteer_info = [
 		name: "Hariharan Srinivasulu",
 		pos: "Chennai Lead",
 		school: "Swarthmore College",
-		img: 'images/Harihan_S.png',	
+		img: 'images/Harihan_S.png',
 	},
 	{
 		name: "Kesav Prasanna",
@@ -223,30 +223,30 @@ function generatePics(json, id) {
 		if (i % 4 == 0) {
 			$('#' + id + '-col-' + 0 ).append("<div class='profile'><div class='img-wrapper'>"+
 	              "<img src='"+ json[i].img + "'/></div>" +
-	         "<p>" + json[i].name + "</p>" +
-	         '<p>' + json[i].pos + "</p>" + 
-	          "<p>" + json[i].school + "</p></div>"
+	         "<p class='pName'>" + json[i].name + "</p>" +
+	         '<p class="pPos">' + json[i].pos + "</p>" +
+	          "<p class='pSchool'>" + json[i].school + "</p></div>"
 	          )
 		} else if (i % 4 == 1) {
 			$('#' + id + '-col-' + 1).append("<div class='profile'><div class='img-wrapper'>"+
 	              "<img src='"+ json[i].img + "'/></div>" +
-	         "<p>" + json[i].name + "</p>" +
-	         '<p>' + json[i].pos + "</p>" + 
-	          "<p>" + json[i].school + "</p></div>"
+	         '<p class="pName">' + json[i].name + "</p>" +
+	         '<p class="pPos">' + json[i].pos + "</p>" +
+	          "<p class='pSchool'>" + json[i].school + "</p></div>"
 	          )
 		} else if (i % 4 == 2) {
 			$('#' + id + '-col-' + 2).append("<div class='profile'><div class='img-wrapper'>"+
 	              "<img src='"+ json[i].img + "'/></div>" +
-	         "<p>" + json[i].name + "</p>" +
-	         '<p>' + json[i].pos + "</p>" + 
-	          "<p>" + json[i].school + "</p></div>"
+	         "<p class='pName'>" + json[i].name + "</p>" +
+	         '<p class="pPos">' + json[i].pos + "</p>" +
+	          "<p class='pSchool'>" + json[i].school + "</p></div>"
 	          )
 		} else {
 			$('#' + id + '-col-' + 3).append("<div class='profile'><div class='img-wrapper'>"+
 	              "<img src='"+ json[i].img + "'/></div>" +
-	         "<p>" + json[i].name + "</p>" +
-	         "<p>" + json[i].pos + '</p>' + 
- 	          "<p>" + json[i].school + "</p></div>"
+	         "<p class='pName'>" + json[i].name + "</p>" +
+	         "<p class='pPos'>" + json[i].pos + '</p>' +
+ 	          "<p class='pSchool'>" + json[i].school + "</p></div>"
 	          )
 		}
 	}
