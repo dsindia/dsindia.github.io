@@ -1,5 +1,5 @@
-body{
 	margin: 0 auto;
+	body{
 	font-family: 'Source Sans Pro';
 }
 h1{font-size: 3em;}
@@ -185,7 +185,7 @@ h3 {
 }
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover{
-  background-color: #FFA538;
+  background-color: white;
 }
 .navbar-default .navbar-toggle .icon-bar{
   background-color: #2C3C9E;
@@ -200,4 +200,16 @@ hr {
     margin: 0;
     margin-bottom: 20px;
     border: 0;
+}
+.schoolLogo{
+	height: 170px;
+	padding: 10px;
+	opacity: 0.8;
+	-webkit-animation-timing-function: ease;
+	animation-timing-function: ease;
+}
+.schoolLogo:hover{
+	opacity: 1;
+	-webkit-animation-timing-function: ease;
+	animation-timing-function: ease;
 }

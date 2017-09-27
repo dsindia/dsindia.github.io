@@ -11,3 +11,10 @@ hr {
 .panel-title {
 	font-weight: bold;
 }
+.panel-body{
+  text-decoration: none;
+  color: #333;
+  border-radius: 0;
+  margin: 0;
+  background-color: #999;
+}
