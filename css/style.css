@@ -213,3 +213,10 @@ hr {
 	-webkit-animation-timing-function: ease;
 	animation-timing-function: ease;
 }
+
+.fa{
+		padding: 10px; color: #333;
+}
+.fa:hover{
+	color: orange;
+}

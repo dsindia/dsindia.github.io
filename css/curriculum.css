@@ -11,10 +11,25 @@ hr {
 .panel-title {
 	font-weight: bold;
 }
-.panel-body{
+.panel-heading{
   text-decoration: none;
   color: #333;
   border-radius: 0;
   margin: 0;
-  background-color: #999;
+  background-color: #ddd;
+}
+.panel-title{
+  padding: 10px 0;
+}
+section{
+  padding: 80px 0;
+}
+.panel-default{
+  margin: 0;
+  border-radius: 0;
+
+}
+.panel-group .panel+.panel{
+    margin-top: 3px;
+    border-radius: 0 !important;
 }
