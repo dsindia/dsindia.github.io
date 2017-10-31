@@ -78,12 +78,6 @@ var core_info = [
 		img: "images/Pranav_Garg.png",
 	},
 	{
-		name: "Namita Verma",
-		pos: "Corporate Outreach Officer",
-		school: "UC Berkeley",
-		img: "images/Namita_Verma.png",
-	},
-	{
 		name: "Shyamsunder Sriram",
 		pos: "Finance Officer",
 		school: "University of Chicago",
