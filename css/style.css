@@ -1,9 +1,22 @@
 	margin: 0 auto;
-	body{
-	font-family: 'Source Sans Pro';
+body {
+  font-family: "Source Sans Pro";
 }
-h1{font-size: 3em;}
-p{font-size: 1.5em;}
+h1{font-size: 3em;    
+  font-family: "Source Sans Pro";
+}
+p{font-size: 1.5em;
+  font-family: "Source Sans Pro";
+}
+span{
+  font-family: "Source Sans Pro";
+}
+center{
+    font-family: "Source Sans Pro";
+}
+a {
+  font-family: "Source Sans Pro";
+}
 section>h1{padding-top: 30px;}
 .bod{
 	padding: 50px 0;
@@ -18,12 +31,14 @@ section>h1{padding-top: 30px;}
 .mastSubHero{
 	margin-top: 30px;
 	font-size: 2.3em;
+  font-family: "Source Sans Pro";
 }
 footer {
   background-color: #2C3C9E;
   color: #ffffff;
   padding-left: 20px;
   padding-top: 1px;
+  font-family: "Source Sans Pro";
 }
 nav {
   text-align: center;
@@ -69,6 +84,7 @@ height: 700px;
   margin: 20px 0;
 	color: #ffa538;
   margin-right: 10px;
+  font-family: "Source Sans Pro";
 }
 .button:hover {
   color: #2C3C9E;
@@ -120,6 +136,7 @@ a.button.cta:hover {
 h3 {
   text-align: left;
   margin-left: 120px;
+  font-family: "Source Sans Pro";
 }
 .india-map-div {
   display: flex;
