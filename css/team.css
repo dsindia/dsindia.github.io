@@ -1,0 +1,55 @@
+.container {
+	font-family: "Source Sans Pro";
+}
+.border {
+	text-align: center;
+}
+.profile {
+	text-align: center;
+	border-style: round;
+	font-size: 10px;
+}
+nav {
+  text-align: center;
+    margin: 25px 0;
+  font-size: 22px;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+img {
+	width: 100%;
+	height: inherit;
+  padding: 20px;
+}
+p{
+	margin: 0;
+}
+.pName{
+	font-size: 2em;
+	font-weight: bolder;
+}
+.pPos{
+	font-weight: bold;
+}
+.pSchool{
+	padding-top: 5px;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a{
+	font-size: 22px;
+}
+
+.imgNavTeam{
+	height: 4em !important;
+  width: inherit;
+  margin-left: 10px;
+}
+.navImage{
+	height: 4em !important;
+}
+section{
+	padding: 30px 0;
+}
