@@ -1,13 +1,13 @@
 var core_info = [
 	{
 		name: "Pancham Yadav",
-		pos: 'Founder, Director of Strategy and Implementation',
+		pos: 'Founder',
 		school: "UC Berkeley",
 		img: "images/Pancham_Yadav.png",
 	},
 	{
 		name: "Sathvik Nair",
-		pos: "Founder, Director of Product and Design",
+		pos: "Founder",
 		school: "UC Berkeley",
 		img: "images/Sathvik_Nair.png"
 	},
