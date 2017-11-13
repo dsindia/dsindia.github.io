@@ -1,7 +1,7 @@
 var core_info = [
 	{
 		name: "Pancham Yadav",
-		pos: 'Founder',
+		pos: "Founder",
 		school: "UC Berkeley",
 		img: "images/Pancham_Yadav.png",
 	},
