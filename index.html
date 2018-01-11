@@ -111,9 +111,57 @@
         </div>
       </center>
       </div>
-
     </div>
-  </section>
+</section>
+
+<br><br>
+
+</section>
+  <section class="grey bod">
+    <div class="container">
+      <div class="row">
+        <center>
+        <div class="col-md-4">
+            <head>
+                <style>
+                   #map {
+                    height: 365px;
+                    width: 100%;
+                   }
+                </style>
+            </head>
+            <body>
+                <div id="map"></div>
+                <script>
+                  function initMap() {
+                    var uluru = {lat: 20.5937, lng: 78.9629};
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                      zoom: 4,
+                      center: uluru
+                    });
+                    var marker = new google.maps.Marker({
+                      position: uluru,
+                      map: map
+                    });
+                  }
+                </script>
+                <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeZ9xVjQPyzbcGiJu3TL3TQYRsc2N5bF0&callback=initMap">
+                </script>
+            </body>
+        </div>
+        <div class="col-md-4">
+          <h4>PLACEHOLDER TEXT</h4>
+        </div>
+        <div class="col-md-4">
+          <img src="images/kadarpur_talk.JPG" width='100%' alt="" />
+          <p style="font-size: 1.15em; padding-top: 15px; text-align: left;"">GURGAON: Nitika Malhotra, data scientist at Zomato, a major Indian software company, gives a talk about the importance of data science to our students to an audience of girls, at the Kadarpur Government School in Haryana.</p>
+        </div>
+      </center>
+      </div>
+    </div>
+</section>
+
 <section class="bod">
   <div class="container">
     <div class="row">
