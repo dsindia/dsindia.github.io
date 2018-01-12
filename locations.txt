@@ -1,0 +1,7 @@
+var chettinad = {lat: 13.016551, lng: 80.267708};
+var npsChennai = {lat: 13.052165, lng: 80.254428};
+var kadarpur = {lat: 28.386780, lng: 77.051930};
+var jacobpura = {lat: 28.462552, lng: 77.028380};
+var amity = {lat: 28.454800, lng: 77.077600};
+var mahipalpur = {lat: 28.548112, lng:77.127663};
+var ssb = {lat: 12.973678, lng: 77.639987};
