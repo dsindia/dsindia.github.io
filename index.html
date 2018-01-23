@@ -65,10 +65,11 @@
 <section id="about" class="bod">
   <div class="container">
   <div class='row'>
-    <h1 style="padding-left:15px;">About Us</h1>
+    <h1 style="padding-left:15px;">Our Mission</h1>
     <div class="col-md-6">
+            <p>We wish to ensure that Indian citizens have the resources to not only understand data, but also appreciate the power of data science. The importance of data and computing, key to the 21st century workforce, are on the rise. India, home to the world's youngest population, is rapidly growing as an economic power, and we're trying to make India's development more equitable through promoting data science to <i>everyone</i>.</p>
+            <p>Our founding members, UC Berkeley undergraduates, were inspired by how Berkeley's data science curriculum significantly improves access to core concepts, and decided to take this approach to India, a nation that is growing rapidly. Although there do exist introductory data science resources online, we're ensuring that our curriculum is accessible to <i>everyone</i>, regardless of their background, and are actively encouraging students to pursue data science in both academia and industry.</p>
 
-          <p>Founded in May 2017 by a small team of UC Berkeley undergrads, we began to design a curriculum that would teach high school students fundamental concepts of data science, taking them from introductory Python programming and statistical knowledge to basic machine learning algorithms. As we spread the word about our effort, our core team expanded to include about 20 students from institutions around the world. Our first cohort of college and high school instructors taught programs at schools in four Indian cities: Delhi, Gurgaon, Bangalore, and Chennai.</p>
     </div>
     <div class="col-md-6">
       <div class='pics-wrapper'>
@@ -113,9 +114,6 @@
       </div>
     </div>
 </section>
-
-<br><br>
-
 </section>
   <section class="grey bod">
     <div class="container">
@@ -134,28 +132,50 @@
                 <div id="map"></div>
                 <script>
                   function initMap() {
-                    var uluru = {lat: 20.5937, lng: 78.9629};
+                    var ctr = {lat: 20.5937, lng: 78.9629};
+                    locations = [{lat: 13.016551, lng: 80.267708}, {lat: 13.052165, lng: 80.254428}, {lat: 28.386780, lng: 77.051930}, {lat: 28.462552, lng: 77.028380},
+                    {lat: 28.548112, lng:77.127663}, {lat: 12.973678, lng: 77.639987}];
+
                     var map = new google.maps.Map(document.getElementById('map'), {
                       zoom: 4,
-                      center: uluru
+                      center: ctr
                     });
-                    var marker = new google.maps.Marker({
-                      position: uluru,
-                      map: map
-                    });
+                    for (var i = 0; i < locations.length; i++) {
+                      var marker = new google.maps.Marker({
+                        position: locations[i],
+                        map: map
+                      })
+                    }
+                    
                   }
                 </script>
                 <script async defer
                 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeZ9xVjQPyzbcGiJu3TL3TQYRsc2N5bF0&callback=initMap">
                 </script>
+                <p style="font-size: 1.15em; padding-top: 15px; text-align: left">Locations of the schools we taught across India last summer</p>
             </body>
         </div>
         <div class="col-md-4">
-          <h4>PLACEHOLDER TEXT</h4>
+              <a href="http://www.berkeley.edu"><img src="logos/cal.png" alt="" class="schoolLogo"/></a>
+              <a href="http://www.tufts.edu"><img src="logos/tufts.png" alt="" class="schoolLogo" /></a>
+              <a href="http://www.swarthmore.edu"><img src="logos/swarthmore.png" alt="" class="schoolLogo" /></a>
+              <br>
+              <a href="http://www.mit.edu"><img src="logos/mit.png" alt="" class="schoolLogo" style='height: 70px; width: 90px;'/></a>
+              <a href="http://www.ucla.edu"><img src="logos/ucla.png" alt="" class="schoolLogo" style='height: 70px; width: 90px; margin-left: 20px;'/></a>
+              <a href="http://www.lse.edu"><img src="logos/lse.gif" alt="" class="schoolLogo" style='height: 75px; width: 120px;'/></a>
+              <br>
+              <a href="http://www.uchicago.edu"><img src="logos/uoc.gif" alt="" class="schoolLogo" /></a>
+              <a href="http://www.emory.edu"><img src="logos/emory.png" alt="" class="schoolLogo" /></a>
+              <a href="http://www.ashoka.edu.in"><img src="logos/ashoka.png" alt="" class="schoolLogo" /></a>
+              <br>
+              <a href="http://www.washington.edu"><img src="logos/uow.gif" alt="" class="schoolLogo" /></a>
+              <a href="http://www.iitd.ac.in"><img src="logos/iitd.png" alt="" class="schoolLogo" /></a>
+              <a href="http://risd.edu"><img src="logos/risd.png" alt="" class="schoolLogo" /></a>
+              <p style="font-size: 1.15em; padding-top: 15px; text-align: left">Colleges attended by our core team and volunteer instructors</p>
         </div>
         <div class="col-md-4">
-          <img src="images/kadarpur_talk.JPG" width='100%' alt="" />
-          <p style="font-size: 1.15em; padding-top: 15px; text-align: left;"">GURGAON: Nitika Malhotra, data scientist at Zomato, a major Indian software company, gives a talk about the importance of data science to our students to an audience of girls, at the Kadarpur Government School in Haryana.</p>
+          <img src="images/kadarpur_talk.JPG" width='100%' alt="" style="width: 120%; height: 70%"/>
+          <p style="font-size: 1.15em; text-align: left;"">GURGAON: Nitika Malhotra, data scientist at Zomato, a major Indian software company, gives a talk about the importance of data science to our students to an audience of girls, at the Kadarpur Government School in Haryana.</p>
         </div>
       </center>
       </div>
@@ -165,9 +185,9 @@
 <section class="bod">
   <div class="container">
     <div class="row">
-      <h1 style="padding-left:15px;">Why now?</h1>
+      <h1 style="padding-left:15px;">Our Work</h1>
       <div class="col-md-6">
-        <p>Given the growing relevance of data and computing, we wish to ensure that Indian citizens have the resources to not only understand data, but also appreciate the power of data science. We were inspired by how Berkeley's data science curriculum significantly improves access to core concepts, and decided to take this approach to India, a nation that is growing rapidly. Although there do exist introductory data science resources online, we're ensuring that our curriculum is accessible to <i>everyone</i>, regardless of their background, and are actively encouraging students to pursue data science in both academia and industry. By exposing Indian students to this discipline, as well as the importance of data and computing themselves, we hope to ensure India's development is more equitable.</p>
+          <p>For our pilot program, we designed a <a href="curriculum.html">curriculum</a> that would teach high school students fundamental concepts of data science, taking them from introductory Python programming and statistical knowledge to basic machine learning algorithms. As we spread the word about our effort, our core <a href="team.html">team</a> expanded beyond Berkeley to include about 20 students from institutions around the world. Our first cohort of college and high school instructors taught programs at schools in four Indian cities: Delhi, Gurgaon, Bangalore, and Chennai. Now, we're seeking to improve our curriculum, deepening our partnerships with academia and industry, and hosting events such as Datathons to engage with the community.</p>
       </div>
       <div class="col-md-6">
         <div class='about-pic'>
@@ -176,28 +196,6 @@
         </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="grey bod">
-  <div class="container">
-    <center>
-    <h1 style="padding-left:15px;">We represent</h1><br>
-      <a href="http://www.berkeley.edu"><img src="logos/cal.png" alt="" class="schoolLogo"/></a>
-      <a href="http://www.tufts.edu"><img src="logos/tufts.png" alt="" class="schoolLogo" /></a>
-      <a href="http://www.swarthmore.edu"><img src="logos/swarthmore.png" alt="" class="schoolLogo" /></a>
-      <br>
-      <a href="http://www.mit.edu"><img src="logos/mit.png" alt="" class="schoolLogo" style='height: 80px; width: 150px;'/></a>
-      <a href="http://www.ucla.edu"><img src="logos/ucla.png" alt="" class="schoolLogo" style='height: 90px; width: 150px; margin-left: 20px;'/></a>
-      <a href="http://www.lse.edu"><img src="logos/lse.gif" alt="" class="schoolLogo" style='height: 75px; width: 220px;'/></a>
-      <br>
-      <a href="http://www.uchicago.edu"><img src="logos/uoc.gif" alt="" class="schoolLogo" /></a>
-      <a href="http://www.emory.edu"><img src="logos/emory.png" alt="" class="schoolLogo" /></a>
-      <a href="http://www.ashoka.edu.in"><img src="logos/ashoka.png" alt="" class="schoolLogo" /></a>
-      <br>
-      <a href="http://www.washington.edu"><img src="logos/uow.gif" alt="" class="schoolLogo" /></a>
-      <a href="http://www.iitd.ac.in"><img src="logos/iitd.png" alt="" class="schoolLogo" /></a>
-      <a href="http://risd.edu"><img src="logos/risd.png" alt="" class="schoolLogo" /></a>
-    </center>
   </div>
 </section>
 <!--
@@ -223,19 +221,9 @@
 </div>
 <section class="join" id="join" style="padding: 50px 0;">
   <div class="container">
-    <h1 style="padding-left:15px;">Join Us</h1>
-    <div class="col-md-6">
-      <p>
-        Want to get involved? </p>
-        <p>Fill out one of the forms and we’ll get back to you as soon as possible.
-      </p>
-      <a class="button cta" style="margin:0;" href = 'https://docs.google.com/forms/d/e/1FAIpQLSeUS888BkxTK7xCyWLWPlKbOSzwk0NAFvYHxef9LfhASkMQHw/viewform?c=0&w=1'>Teach our Curriculum</a>
+    <h1>Join Us</h1>
+    <p>Applications to join our team at UC Berkeley are open. Apply at the link below and we'll get back to you as soon as possible.</p>
       <br><br><a class="button cta" style="margin:0;" href='https://docs.google.com/forms/d/e/1FAIpQLScKJ35Q7fCJQ5QCjsTerbhNFQqakGDy7kUwF9oDnExNon6HAQ/viewform?c=0&w=1'>Join our Core Team</a>
-    </div>
-    <div class="col-md-6">
-      <img src="images/kadarpur_talk.JPG" width='100%' alt="" />
-      <br><br>
-      <span style="font-weight: bold">GURGAON: </span><span>Nitika Malhotra, data scientist at Zomato, a major Indian software company, gives a talk about the importance of data science to our students to an audience of girls, at the Kadarpur Government School in Haryana.</span>
     </div>
   </div>
 </section>
