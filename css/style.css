@@ -61,7 +61,7 @@ nav ul {
 background-size:cover;
 background-position:center;
 color: #fff;
-height: 700px;
+height: 500px;
 }
 .overlay{
 	padding: 75px 0;
@@ -100,6 +100,9 @@ a.button.cta:hover {
   background: #8980f5;
   color: #fff;
   border-color: #8980f5;
+}
+a.join-link:hover {
+  color: #8980f5;
 }
 .buttons{
 	margin-top: 60px;
