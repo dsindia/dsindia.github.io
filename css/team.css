@@ -19,7 +19,7 @@ nav ul {
   padding-left: 0;
 }
 
-img {
+.img-wrapper>img {
 	width: 100%;
 	height: inherit;
   padding: 20px;
