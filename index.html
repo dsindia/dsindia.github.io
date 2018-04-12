@@ -24,8 +24,12 @@
 
     <!--Scripts-->
     <link href="css/style.css" type="text/css" rel="stylesheet">
-
     <script src="https://use.fontawesome.com/bbba5386a6.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/3.1.1/jquery.validate.min.js"></script>
+    <script type='text/javascript' src='./js/main.js'></script>
+
 
   </head>
 
@@ -48,7 +52,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#about">ABOUT</a></li>
           <li><a href="team.html">TEAM</a></li>
-          <li><a target="_blank" style="color: #ffa538" class="join-link" href="https://tinyurl.com/sp18dsi">JOIN</a></li>
+          <li><a target="_blank" class="join-link" href="https://tinyurl.com/sp18dsi">JOIN</a></li>
         </ul>
       </div>
       <!--/.nav-collapse -->
@@ -62,9 +66,9 @@
       <div class="overlay">
         <div class="container">
           <h1 class="mastHero" style="font-weight: bold;">Data Science for India</h1>
-          <h2 class="mastSubHero"><i>Join us in our mission to democratize DS education in India!</i></h2>
+          <h2 class="mastSubHero"><i>democratizing data science education in India</i></h2>
           <div class="buttons">
-            <a class="button cta" target="_blank" style="margin: auto;" href="https://tinyurl.com/sp18dsi">Join Our Team</a>
+            <a class="button cta" target="_blank" style="margin: auto;" href="https://goo.gl/forms/BMc1y61Xfn9UIoYp2">Join Our Mailing List!</a>
           </div>
         </div>
       </div>
@@ -74,34 +78,76 @@
 <section id="about" class="bod">
   <div class="container">
   <div class='row'>
-    <h1 style="padding-left:15px;">Our Mission</h1>
     <div class="col-md-6">
-            <p>We wish to ensure that Indian students have the resources to not only understand data, but also appreciate the power of data science. The importance of data and computing, key to the 21st century workforce, are on the rise. India, home to the world's youngest population, is rapidly growing as an economic power, and we're trying to make India's development more equitable through promoting data science to <i>everyone</i>.</p>
-            <p>Our founding members, UC Berkeley undergraduates, were inspired by how Berkeley's data science curriculum significantly improves access to core concepts, and decided to take this approach to India, a nation that is growing rapidly. Although there do exist introductory data science resources online, we're ensuring that our curriculum is accessible to <i>everyone</i>, regardless of their background, and are actively encouraging students to pursue data science in both academia and industry.</p>
-
+        <h1>Our Mission</h1>
+            <p>Data Science for India (DSI) is a global organization dedicated to educating and empowering high school students in India with a strong analytical foundation and critical tools for data science. Our team works toward building a platform that connects Indian students to resources, mentors, and opportunities in order to inspire the next generation of inquisitive students who will take on a data-rich world. We develop and provide specialized data science curricula, targeted bootcamp workshops, and presentations from industry professionals to bring data science education to students everywhere.
+            </p>
     </div>
     <div class="col-md-6">
       <div class='pics-wrapper'>
         <div class='about-pic'>
-          <img src='images/students.JPG' style='width: 100%;padding:20px;'>
-          <span style='font-weight: bold'>CHENNAI:</span><span> Hariharan Srinivasulu and Keshav Prasanna pose with their students after our first successful program!<!--400 Students Taught--></span>
+          <img src="images/chennai_students.JPG" style="width: 100%;padding:20px; border-radius: 30px;">
+          <span> Hariharan Srinivasulu and Keshav Prasanna pose with their students after the first Summer 2018 Exploratory Data Science Program in Chennai!</span>
         </div>
-        <!--
-        <div class='about-pic'>
-
-          <h3 class='about-overlay'>35 Volunteer Instructors</h3>
-        </div>
-        <br>
-        <div class='about-pic'>
-          <img src='images/colleges.png' style='width: 450px; height: 225px;'>
-          <h3 class='about-overlay'>15 Universities Represented</h3>
-        </div>
-      -->
       </div>
     </div>
   </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class='pics-wrapper'>
+      <div class='about-pic'>
+        <img src="images/kadarpur_talk.JPG" style="width: 100%; padding:20px; border-radius: 30px;" />
+        <span>Nitika Malhotra, Data Scientist at Zomato, gives a talk in Gurgaon about the importance of data science to our students at the Kadarpur Government School in Haryana.</span>
+      </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <h1>Our Vision</h1>
+        <p>At Data Science for India (DSI), we believe that anyone should be able to learn data science. As data and information are increasingly available, students of every discipline, ranging from medicine to history to urban planning to sports, must be well-equipped with the tools to question, analyse and understand data. Our goal is to bring data science to all Indian students regardless of their academic background or socioeconomic status because the only prerequisite to learning data science is a curiosity to learn more.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <h1>Our Program</h1>
+        <p>In Summer 2018, a team of over 20 DSI Volunteer Instructors held Exploratory Data Science Programs for over 400 students in four Indian cities: Delhi, Gurgaon, Bangalore, and Chennai. </p>
+        <p>Over the past year, the DSI @ Berkeley Chapter has been working on:</p>
+        <ul>
+          <li>designing the <strong>DSI Data Literacy Curriculum</strong></li>
+          <li>creating the <strong>DSIx Data Science Bootcamp Program</strong></li>
+          <li>improving the <strong>DSI Exploratory Data Science Curriculum</strong></li>
+        </ul>
+        <p>Want a DSI Program near you? <a href="https://goo.gl/forms/7yuuZDX8fd1RQEu12" style='font-weight:bold'>Let us know!</a> </p>
+    </div>
+
+    <div class="col-md-6">
+      <div class='pics-wrapper'>
+      <div class='about-pic'>
+        <img src="images/students.JPG" style="width: 100%; padding:20px; 	border-radius: 30px;" />
+        <span>Students at Amity International School, Gurugram watch eagerly as the DSI program commences.</span>
+      </div>
+    </div>
+    </div>
+
+  </div>
+
 </div>
 </section>
+
+<!--
+<div class='about-pic'>
+
+  <h3 class='about-overlay'>35 Volunteer Instructors</h3>
+</div>
+<br>
+<div class='about-pic'>
+  <img src='images/colleges.png' style='width: 450px; height: 225px;'>
+  <h3 class='about-overlay'>15 Universities Represented</h3>
+</div>
+-->
+
   <section class="grey bod">
     <div class="container">
       <div class="row">
@@ -161,7 +207,7 @@
                 <script async defer
                 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeZ9xVjQPyzbcGiJu3TL3TQYRsc2N5bF0&callback=initMap">
                 </script>
-                <p style="font-size: 1.15em; padding-top: 15px; text-align: left">Locations of the schools we taught across India last summer</p>
+                <p style="font-size: 1.15em; padding-top: 15px; text-align: left">DSI Program Locations</p>
             </body>
         </div>
         <div class="col-md-4">
@@ -183,30 +229,15 @@
               <p style="font-size: 1.15em; padding-top: 15px; text-align: left">Universities that DSI team members represent.</p>
         </div>
         <div class="col-md-4">
-          <img src="images/kadarpur_talk.JPG" width='100%' alt="" style="width: 120%; height: 70%"/>
-          <p style="font-size: 1.15em; text-align: left;"">GURGAON: Nitika Malhotra, data scientist at Zomato, a major Indian software company, gives a talk about the importance of data science to our students to an audience of girls, at the Kadarpur Government School in Haryana.</p>
+          <img src="images/instructors.png" width='100%' alt="" style="width: 120%; height: 70%; border-radius: 10px;"/>
+          <p style="font-size: 1.15em; text-align: left;">Pranav Bhasin and Sathya Sahay teach the introductory module of the Exploratory Data Science Curriculum in Gurgaon.</p>
         </div>
       </center>
       </div>
     </div>
 </section>
 
-<section class="bod">
-  <div class="container">
-    <div class="row">
-      <h1 style="padding-left:15px;">Our Work</h1>
-      <div class="col-md-6">
-          <p>For our pilot program, we designed a curriculum that would teach high school students fundamental concepts of data science, taking them from introductory Python programming and statistical knowledge to basic machine learning algorithms. As we spread the word about our effort, our core <a href="team.html">team</a> expanded beyond Berkeley to include about 20 students from institutions around the world. Our first cohort of college and high school instructors taught programs at schools in four Indian cities: Delhi, Gurgaon, Bangalore, and Chennai. Now, we're seeking to improve our curriculum, deepening our partnerships with academia and industry, and hosting events such as Datathons to engage with the community.</p>
-      </div>
-      <div class="col-md-6">
-        <div class='about-pic'>
-          <img src='images/instructors.png' style='width: 100%; padding:20px;'>
-          <span style='font-weight: bold'><b>GURGAON:</b></span> <span>Pranav Bhasin and Sathya Sahay teach the introductory module.<!--400 Students Taught--></span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
 <!--
 <div class='container'>
   <h2>After all this progress, what's next?</h2>
@@ -234,6 +265,18 @@
         <a class = "btn btn-primary" style='background-color: #ffa538;' href = 'https://docs.google.com/forms/d/e/1FAIpQLSeUS888BkxTK7xCyWLWPlKbOSzwk0NAFvYHxef9LfhASkMQHw/viewform?c=0&w=1'>Teach our Curriculum in India</a>
         <a class = 'btn btn-primary' style='background-color: #ffa538;' href = 'https://docs.google.com/forms/d/e/1FAIpQLScKJ35Q7fCJQ5QCjsTerbhNFQqakGDy7kUwF9oDnExNon6HAQ/viewform?c=0&w=1'>Join our Core Team</a>
 </div>-->
+
+<section id="about" class="bod">
+  <div class="container">
+
+  </div>
+</section>
+
+
+
+
+
+
 <section class="contact grey">
   <div class="container">
     <center>
@@ -241,10 +284,11 @@
       <br> © 2018 Data Science Education, LLP
       <br>
       <div style = "font-size: 30px; text-align: center; padding-bottom: 40px">
+        <a class = 'fa fa-twitter'  href = 'https://twitter.com/DSforIndia'></a>
         <a class = 'fa fa-facebook'  href = 'https://www.facebook.com/datascienceforindia/'></a>
-        <a class = 'fa fa-github'  href = 'https://github.com/dsindia/'></a>
         <a class = "fa fa-linkedin" href="https://www.linkedin.com/company-beta/13321493/"></a>
-        <a class = "fa fa-envelope" href = "mailto:sathviknair@berkeley.edu"></a>
+        <a class = 'fa fa-github'  href = 'https://github.com/dsindia/'></a>
+        <a class = "fa fa-envelope" href = "mailto:team@dsi.berkeley.edu"></a>
       </div>
     <center>
   </div>

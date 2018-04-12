@@ -2,10 +2,16 @@
 body {
   font-family: "Source Sans Pro";
 }
-h1{font-size: 3em;    
+h1{
+	font-size: 3em;
   font-family: "Source Sans Pro";
 }
-p{font-size: 1.5em;
+p {
+	font-size: 1.5em;
+  font-family: "Source Sans Pro";
+}
+ul, li {
+	font-size: 1.25em;
   font-family: "Source Sans Pro";
 }
 span{
@@ -16,12 +22,18 @@ center{
 }
 a {
   font-family: "Source Sans Pro";
+	font-weight: bold;
+	color:#ffa538;
 }
-section>h1{padding-top: 30px;}
+section>h1{
+	padding-top: 30px;
+}
 .bod{
 	padding: 50px 0;
 }
-.blue{color:#2C3C9E;}
+.blue{
+	color:#2C3C9E;
+}
 .hero{
 	width: 100%;
 }
@@ -45,7 +57,8 @@ nav {
 	margin: 25px 0;
 }
 .grey{
-	background-color: #f5f5f5;
+	background-color: rgba(137, 128, 245, 0.1);
+
 }
 .navImage{
 	height: 4em;
@@ -56,12 +69,12 @@ nav ul {
 .mast{
 	background-image: url(../images/landingBg.png);
 	-webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-size:cover;
-background-position:center;
-color: #fff;
-height: 500px;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+	color: #fff;
+	height: 500px;
 }
 .overlay{
 	padding: 75px 0;
@@ -192,7 +205,11 @@ h3 {
 }
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav>li>a{
-  color : #2C3C9E;
+  color : #ffa538;
+  font-size: 22px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  color : #8980f5;
   font-size: 22px;
 }
 .navbar-default{
@@ -208,7 +225,7 @@ h3 {
   background-color: white;
 }
 .navbar-default .navbar-toggle .icon-bar{
-  background-color: #2C3C9E;
+  background-color: #8980f5;
 }
 
 hr {
@@ -239,4 +256,5 @@ hr {
 }
 .fa:hover{
 	color: orange;
+	text-decoration: none;
 }
