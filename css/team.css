@@ -22,7 +22,8 @@ nav ul {
 img {
 	width: 100%;
 	height: inherit;
-  	padding: 20px;
+  padding: 20px;
+	border-radius: 50%;
 }
 p{
 	margin: 0;
