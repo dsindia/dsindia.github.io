@@ -24,12 +24,13 @@
 
     <!--Scripts-->
     <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/intern.css" type="text/css" rel="stylesheet">
     <script src="https://use.fontawesome.com/bbba5386a6.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/3.1.1/jquery.validate.min.js"></script>
     <script type='text/javascript' src='./js/main.js'></script>
-
+    <script type='text/javascript' src='./js/intern.js'></script>
 
   </head>
 
@@ -45,14 +46,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html"><img src="images/navLogo.png" alt="Data Science for India">
+        <a class="navbar-brand" href=""><img src="images/navLogo.png" alt="Data Science for India">
         </a>
       </div>
       <div id="navbar3" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html#about">ABOUT</a></li>
+          <li><a href="index.html">ABOUT</a></li>
           <li><a href="team.html">TEAM</a></li>
-          <li><a href="intern.html" href="">JOIN</a></li>
+          <li><a href="intern.html">JOIN</a></li>
 
         </ul>
       </div>
@@ -66,20 +67,46 @@
 <section class="grey bod">
   <div class="container">
     <div class="row">
-      <center>
-
-    </center>
+      <h1>Become a DSI Intern!</h1>
+      <p>Want to join the Data Science for India Team in making data science education accessible? <a href="#apply">Apply to be a DSI Summer Intern below!</a></p>
     </div>
   </div>
 </section>
+
 <section class="bod">
-<!--iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdDhlEKBVMxpC6BGndKUrXmr4RLePZY97ZDpzHY5kPT3PcMSA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe-->
+  <div class="container">
+    <div class="row" style="align-items:center">
+      <div class="col-md-4">
+        <h2>Operations</h2>
+		      <div id="op1" class="toggle-description" onclick="toggleDescription('op1')"><p>Regional Director Intern</p></div>
+          <div id="op2" class="toggle-description" onclick="toggleDescription('op2')"><p>Data Science for India Instructor Intern</p></div>
+		      <div id="op3" class="toggle-description" onclick="toggleDescription('op3')"><p>Finance &amp; Sponsorship Intern</p></div>
+      </div>
+      <div class="col-md-4">
+        <h2>Curriculum</h2>
+          <div id="c1" class="toggle-description" onclick="toggleDescription('c1')"><p>Curriculum Development Intern</p></div>
+          <div id="c2" class="toggle-description" onclick="toggleDescription('c2')"><p>User Research Intern</p></div>
+          <div id="c3" class="toggle-description" onclick="toggleDescription('c3')"><p>Research Scientist Intern</p></div>
+      </div>
+      <div class="col-md-4">
+        <h2>Outreach &amp; Software</h2>
+		      <div id="os1" class="toggle-description" onclick="toggleDescription('os1')"><p>Communications Intern</p></div>
+		      <div id="os2" class="toggle-description" onclick="toggleDescription('os2')"><p>Media &amp; Marketing Intern</p></div>
+		      <div id="os3" class="toggle-description" onclick="toggleDescription('os3')"><p>Software Engineering Intern</p></div>
+      </div>
+  </div>
+</section>
+
+<section id="apply" class="grey bod">
+  <center>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdDhlEKBVMxpC6BGndKUrXmr4RLePZY97ZDpzHY5kPT3PcMSA/viewform?embedded=true" width=100% height="2300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+  </center>
 </section>
 
 <section class="bod">
   <div class="container">
     <center>
-      <img src="images/icon.png" width="200px" alt="" />
+      <img src="images/icon.png" width="100px" alt="" />
       <br> © 2018 Data Science Education, LLP
       <br>
       <div style = "font-size: 30px; text-align: center; padding-bottom: 40px">

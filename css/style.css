@@ -6,6 +6,10 @@ h1{
 	font-size: 3em;
   font-family: "Source Sans Pro";
 }
+h2{
+	font-size: 2.75em;
+  font-family: "Source Sans Pro";
+}
 p {
 	font-size: 1.5em;
   font-family: "Source Sans Pro";
@@ -24,6 +28,12 @@ a {
   font-family: "Source Sans Pro";
 	font-weight: bold;
 	color:#ffa538;
+}
+a:hover {
+  font-family: "Source Sans Pro";
+	font-weight: bold;
+	text-decoration: none;
+	color:#8980f5;
 }
 section>h1{
 	padding-top: 30px;
@@ -207,11 +217,11 @@ h3 {
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav>li>a{
   color : #ffa538;
-  font-size: 22px;
+  font-size: 30px;
 }
 .navbar-default .navbar-nav>li>a:hover{
   color : #8980f5;
-  font-size: 22px;
+  font-size: 30px;
 }
 .navbar-default{
   font-size: 20px;
@@ -253,9 +263,11 @@ hr {
 }
 
 .fa{
-		padding: 10px; color: #333;
+		padding: 10px;
+		color:#2C3C9E;
 }
+
 .fa:hover{
-	color: orange;
+	color: #ffa538;
 	text-decoration: none;
 }

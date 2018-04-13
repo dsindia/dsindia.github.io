@@ -134,12 +134,6 @@ volunteer_info = [
 		img: "images/Yogesh_S.png",
 	},
 	{
-		name: "Pranav Bhasin",
-		pos: "Gurgaon and Delhi Lead",
-		school: "UC Berkeley",
-		img: "images/Pranav_Bhasin.png",
-	},
-	{
 		name: "Sathya Sahay",
 		pos: "Gurgaon Instructor",
 		school: "Ashoka University",
