@@ -1,0 +1,12 @@
+#desc {
+  padding-left: 15px;
+}
+#desc>p, ul>li {
+  font-size: 13px;
+}
+.toggle-description>p {
+  color: #ffa538;
+}
+.toggle-description>p:hover {
+  color: #8980f5;
+}
