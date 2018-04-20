@@ -57,13 +57,13 @@ var dsi_berkeley = [
 		name: "Somya Jain",
 		pos: "Curriculum Development Coordinator",
 		school: "UC Berkeley",
-		img: 'images/icon.png',
+		img: 'images/somya.png',
 	},
 	{
 		name: "Chloe Kang",
 		pos: "Curriculum Development Coordinator",
 		school: 'UC Berkeley',
-		img: "images/icon.png",
+		img: "images/chloe.png",
 	},
 	{
 		name: "Sierra Tsang",
@@ -88,13 +88,7 @@ var dsi_berkeley = [
 		pos: "Web Development Coordinator",
 		school: "UC Berkeley",
 		img: 'images/Paras.png',
-	},
-	{
-		name: "Akhilesh Jhunjhunwala",
-		pos: "Accelerated Leadership Program Member",
-		school: "UC Berkeley",
-		img: 'images/icon.png',
-	},]
+	}]
 
 volunteer_info = [
 	{
